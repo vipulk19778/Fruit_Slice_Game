@@ -21,7 +21,7 @@ $(function () {
         }
     });
 
-    $("#fruit1").mouseover(function () {
+    $("#fruit1").click(function () {
         score++;
         $("#scorevalue").html(score);
         //        document.getElementById("slicesound").play();
