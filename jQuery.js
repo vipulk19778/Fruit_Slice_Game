@@ -30,10 +30,10 @@ $(function () {
 
         clearInterval(action);
 
-        $("#fruit1").hide("explode", 100);
+        $("#fruit1").hide("explode", 200);
         //        stopAction();
         //        startAction();
-        setTimeout(startAction, 300);
+        setTimeout(startAction, 500);
     });
 
 
